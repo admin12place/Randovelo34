@@ -5,19 +5,14 @@
 /***********************************/
 /*VARIABLES GLOBALES POUR LES .SCSS*/
 /***********************************/
+/*Les polices de caractère*/
 /*Les couleurs*/
-/*Utilisation des fonts (définies dans l'admin WP*/
-:root {
-  --font-main: 'Nunito sans', sans-serif;
-  --font-titles: 'Amatic SC', verdana;
-}
-
 body {
-  font-family: var(--font-main);
+  font-family: "Nunito sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-titles);
+  font-family: "Amatic SC", verdana;
 }
 
 /*Les liens*/
