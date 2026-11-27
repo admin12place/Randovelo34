@@ -39,6 +39,13 @@ function trentequatre_assets() {
     );
 
     wp_enqueue_style(
+        'settings',
+        get_template_directory_uri() . '/assets/css/_settings.scss',
+        [],
+        '1.0'
+    );
+
+    wp_enqueue_style(
         'main-style',
         get_template_directory_uri() . '/assets/css/main-style.css',
         [],
